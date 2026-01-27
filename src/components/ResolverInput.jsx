@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 
-import { Item, Input, Button, TextArea, Dropdown } from 'semantic-ui-react';
+import { Item, Input, Button, Dropdown } from 'semantic-ui-react';
 import { getBackendUrl } from './utils';
 
 export class ResolverInput extends Component {
